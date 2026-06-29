@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 # 1. LOAD YOUR DATASET
 # Replace 'student_data.csv' with the actual name of your 6k dataset file
-df = pd.read_csv('cleaned_data.csv')
+df = pd.read_csv('1_Easy_Student_Pass_Fail_Prediction/cleaned_data.csv')
 #1.1 Thresholding: Create the target variable
 # I am setting 70 as passing marks
 passing_marks = 70
